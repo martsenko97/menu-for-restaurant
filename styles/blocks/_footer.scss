@@ -1,0 +1,36 @@
+.main-footer {
+	background: $black;
+	border-top: 2px solid $red;
+	color: $white;
+	padding: 20px 0;
+	margin-top: 20px;
+}
+.footer-contacts {
+	gap: 10px;
+	&__img {
+		width: 20px;
+	}
+	&__item {
+		font-size: 10px;
+		color: $purple-pink;
+		&:hover {
+			color: $red;
+			transition: 0.3s ease;
+		}
+	}
+	&__txt {
+		font-size: 10px;
+	}
+}
+
+.footer-rights-reserved {
+	gap: 5px;
+
+	&__txt {
+		font-size: 10px;
+	}
+}
+.footer-contacts__max-maltsev,
+.footer-contacts__artur-martsenko {
+	gap: 3px;
+}

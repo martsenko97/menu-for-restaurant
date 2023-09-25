@@ -1,0 +1,16 @@
+.header {
+	background: $black;
+	border-top: 2px solid $red;
+	padding: 40px 0;
+	margin-bottom: 20px;
+	&-txt {
+		color: $white;
+		font-size: 25px;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+}
+
+.logo {
+	width: 162px;
+}
