@@ -1,0 +1,17 @@
+.section-sauses__wrapper {
+	background: $purple-pink;
+	border-radius: 20px;
+	border: $light-green-brd;
+	padding: 30px 0;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.section-sauses {
+	&__title {
+		text-transform: uppercase;
+		font-size: 36px;
+		font-weight: 700;
+		color: $white;
+	}
+}

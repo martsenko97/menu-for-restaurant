@@ -1,0 +1,17 @@
+.section-steaks__wrapper {
+	background: $red-900;
+	border-radius: 20px;
+	border: $light-green-brd;
+	padding: 30px 0;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.section-steaks {
+	&__title {
+		text-transform: uppercase;
+		font-size: 36px;
+		font-weight: 700;
+		color: $white;
+	}
+}
